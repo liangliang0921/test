@@ -4,3 +4,4 @@ master Branch
 feature Branch
 
 Add locally
+Remote add
