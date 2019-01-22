@@ -5,3 +5,5 @@ feature Branch
 
 Add locally
 Remote add
+
+create table
