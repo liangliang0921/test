@@ -6,4 +6,4 @@ feature Branch
 Add locally
 Remote add
 
-create table
+create table new
