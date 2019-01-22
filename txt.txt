@@ -7,3 +7,4 @@ Add locally
 Remote add
 
 create table old
+create table new
