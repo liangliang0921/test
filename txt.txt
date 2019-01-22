@@ -9,4 +9,4 @@ Remote add
 create table old
 create table new
 
-I am a branch
+I am a branch new
