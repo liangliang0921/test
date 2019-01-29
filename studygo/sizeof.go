@@ -8,7 +8,8 @@ import (
 func main() {
 	type A struct {
 		a bool
-		b float64
+		//b float64
+		b int32
 		c int16
 	}
 	type B struct {
@@ -27,4 +28,7 @@ func main() {
 	fmt.Println(unsafe.Sizeof(emec))
 	fmt.Println(unsafe.Sizeof(emed))
 	fmt.Println(unsafe.Sizeof(emef))
+	fmt.Println(unsafe.Alignof(emea))
+	fmt.Println(unsafe.Offsetof(emea.a))
+	fmt.Println(unsafe.Offsetof(emea.b))
 }
